@@ -1,2 +1,23 @@
-# ESP32-C6-SuperMini-dehumidifier-auto-drain-with-ST
-ESP32-C6 SuperMini 개발 보드를 이용한 스마트싱스와 연동 가능한 제습기 물통 자동 배수 장치
+# ESP32-C6 SuperMini dehumidifier auto-drain with ST
+ESP32-C6 SuperMini 개발 보드를 이용한 제습기 물통 자동 배수 장치
+
+Matter 프로토콜을 사용해 스마트싱스와 연동 가능
+
+## 기능
+* 단독 작동 기능
+  * 비접촉 수위 센서 모니터링 (물통 만수위 감지)
+  * 워터 펌프 모터 작동 (물통 배수)
+  * 온습도 센서 모니터링
+
+* 스마트싱스 연동 기능
+  * 물통 만수위 감지 (수분감지센서로 작동)
+  * 물통 배수 (전원 ON/OFF)
+  * 온습도 모니터링
+
+## 하드웨어
+* ESP32-C6 SuperMini 개발 보드
+* 비접촉 수위 센서
+* 워터 펌프 모터
+* 1채널 릴레이 모듈
+* 온습도 센서
+* 기타: 플라이백 다이오드
